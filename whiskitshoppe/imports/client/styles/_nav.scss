@@ -1,0 +1,119 @@
+@media only screen and (min-width: 800px) {
+    nav > ul.open {
+    clip-path: circle(2000px at 110% -20%);
+    pointer-events: all;
+    z-index: 1;
+  }
+}
+
+.buttonAsLink {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  text-decoration: none;
+  font-family: ganache, sans-serif !important;
+  font-size: 1.5rem;
+  color: #006F80;
+  cursor: pointer;
+}
+
+.buttonAsLink:hover {
+  text-decoration: underline;
+}
+
+:root {
+   --toastify-color-progress-light: linear-gradient(
+    to right,
+    #006F80,
+    #94A03C,
+    #65485E,
+  ) !important;
+}
+
+.SearchLinks {
+  display: flex;
+  justify-content: center;
+  form {
+    margin: 1% 2% 0% 2%;
+  }
+}
+
+#tagsSearch {
+  height: 2.5em;
+}
+
+a.feature__btn {
+  display: inline-block;
+}
+
+.colorBlock {
+  background: red;
+}
+
+
+.removeScroll {
+  overflow: hidden;
+}
+
+.fileLabel {
+  width: 75%;
+  text-align: center;
+  margin: 1%;
+}
+
+.emptyCart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      h1 {
+        font-size: 2em;
+        margin: 2%;
+      }
+}
+
+.success {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      flex-direction: column;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.5em;
+      line-height: 1.5;
+      text-align: center;
+      span {
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 1.7em;
+      }
+}
+
+@media only screen and (max-width: 400px) {
+  .success {
+    font-size: 1em;
+    width: 80%;
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .success {
+    height: 100vh;
+    width: 80%;
+  }
+}
+
+img.whisk {
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: -20%;
+}

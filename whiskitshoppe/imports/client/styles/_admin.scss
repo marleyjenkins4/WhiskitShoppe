@@ -1,0 +1,69 @@
+.marginTop{
+  position: relative;
+  top: 200px;
+
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.adminGal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload {
+  padding-bottom: 3%;
+}
+
+#space {
+  margin-top: 2%;
+  margin-bottom: 25%;
+}
+
+.AdminGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.AdminGrid2 {
+  margin-top: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-items: center;
+  overflow: auto;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.list {
+  padding:5%;
+}
+
+#viewGal {
+  margin: 0 auto;
+  display: block;
+}
+
+#back {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 19%;
+  width: 30%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#btn {
+  margin-top: 10%;
+}
